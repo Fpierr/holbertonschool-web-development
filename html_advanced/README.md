@@ -1,7 +1,7 @@
 ## Resources
 
 - [Some pointers about HTML](https://intranet.hbtn.io/concepts/834)
-- [HTML - elements of a web page]https://intranet.hbtn.io/concepts/835()
+- [HTML - elements of a web page](https://intranet.hbtn.io/concepts/835)
 - [HTML Foundations](https://intranet.hbtn.io/concepts/836)
 - [HTML - Semantic sectioning elements](https://intranet.hbtn.io/concepts/837)
 - [HTML Semantic Elements](https://intranet.hbtn.io/concepts/838)
