@@ -7,6 +7,9 @@
 - [HTML Semantic Elements](https://intranet.hbtn.io/concepts/838)
 - [HTML Validation](https://intranet.hbtn.io/concepts/839)
 
+![figma_html_page](https://github.com/user-attachments/assets/d0040d38-d7bb-47b5-8592-7aea6abad48c)
+
+![section_html_page](https://github.com/user-attachments/assets/62394b86-2ac2-4b23-a736-ec59787a4a5a)
 
 ### Read or watch:
 
