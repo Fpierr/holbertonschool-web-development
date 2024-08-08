@@ -9,6 +9,7 @@ body {
 a {
     text-decoration: none;
     color: inherit;
+    text-align:center;
 }
 
 .header {
@@ -39,7 +40,9 @@ a {
 }
 
 .header .nav-container a img {
-    height: 50px;
+    height: 40px;
+    text-align: right;
+    
 }
 
 .header .nav-container .nav-links {
@@ -127,13 +130,12 @@ a {
     background-color: #b667f7;
     color: white;
     padding: 50px 20px;
-    text-align: center;
+    text-align: left;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     box-sizing: border-box;
-    height: 100%;
     margin: 0;
 }
 
@@ -215,9 +217,10 @@ a {
 }
 
 .videos-section .card .author img {
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 20%;
+    margin-right: 20px;
 }
 
 .videos-section .card .rating {
@@ -234,7 +237,7 @@ a {
 .videos-section .card .rating div {
     display: flex;
     align-items: center;
-    gap: 5px; /* Adds space between the stars */
+    gap: 5px; /* space between the stars */
 }
 
 .videos-section .card .rating p {
@@ -346,6 +349,7 @@ a {
     color: #ffffff;
     padding: 50px 20px;
     text-align: center;
+    width: 100%;
 }
 
 .free-membership h1 {
@@ -368,90 +372,150 @@ a {
 }
 
 .membership-card img {
-    width: 50px;  /* Smaller icons */
+    width: 40px;  /* Smaller icons */
     height: auto;
     margin-bottom: 10px;
 }
 
 .membership-card h2 {
-    color: #e0e6f0;  /* Lighter text color for headings */
+    color: #e0e6f0;
     font-size: 16px;
     font-weight: 600;
-    margin-bottom: 10px;  /* Reduced spacing */
+    margin-bottom: 10px;
 }
 
 .membership-card p {
-    color: #a8b2c1;  /* Light grey text color */
+    color: #a8b2c1;
     font-size: 14px;
     margin: 0;  /* Remove margins */
     line-height: 1.5;
 }
 
 .free-membership button {
-    background-color: #eebbc3;  /* Pink background */
-    color: #232946;  /* Dark text */
+    background-color: #a653d3;
+    color: white;
     border: none;
     padding: 12px 24px;
     font-size: 16px;
     border-radius: 20px;
     cursor: pointer;
-    margin-top: 40px;  /* More space above the button */
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    margin-top: 40px;
+    transition: background-color 0.3s ease;
 }
 
 .free-membership button:hover {
-    background-color: #ffccd5;  /* Lighter pink on hover */
+    background-color: #ffccd5;
 }
 
-.footer {
-    background-color: #111;
-    color: white;
-    text-align: center;
+/* FAQ Section Styles */
+.faq-section {
     padding: 50px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.faq-section h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.faq-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.faq-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+    max-width: 500px;
+    text-align: left;
+}
+
+.faq-card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.faq-card p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Media Queries */
+@media (max-width: 10px) {
+    .faq-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.footer {
+    background-color: #0B172A;
+    color: white;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .footer .footer-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1000px;
-    margin: 0 auto;
+    width: 100%;
 }
 
-.footer .footer-container img {
-    height: 50px;
-}
-
-.footer .footer-container .social-links {
+.footer .footer-logo {
     display: flex;
-    gap: 20px;
+    align-items: center;
 }
 
-.footer .footer-container .social-links a img {
-    height: 25px;
+.footer .footer-logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.footer .social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.footer .social-links a img {
+    height: 30px;
+    filter: invert(0%);
 }
 
 .footer p {
-    margin: 20px 0 0;
+    text-align: center;
+    flex-basis: 100%;
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #9AA5C3;
 }
 
 /* Media Queries */
-@media (max-width: 768px) {
-    .main .section .card {
-        width: calc(50% - 40px);
+@media (max-width: 10px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer .footer-container {
+        flex-direction: column;
+    }
+
+    .footer .footer-logo {
+        margin-bottom: 10px;
+    }
+
+    .footer .social-links {
+        margin-bottom: 10px;
     }
 }
 
-@media (max-width: 480px) {
-    .header .banner h1 {
-        font-size: 32px;
-    }
-
-    .header .banner p {
-        font-size: 18px;
-    }
-
-    .main .section .card {
-        width: calc(100% - 40px);
-    }
-}
