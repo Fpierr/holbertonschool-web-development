@@ -1,6 +1,6 @@
 # CSS ADVENCED
 
-##Resources
+## Resources
 Read or watch:
 
 - [Learn to Code HTML & CSS](https://learn.shayhowe.com/html-css/) (until “Creating Lists” included)
