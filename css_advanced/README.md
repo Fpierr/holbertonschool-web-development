@@ -1,6 +1,6 @@
 # CSS ADVENCED
 
-##,Resources
+##Resources
 Read or watch:
 
 - [Learn to Code HTML & CSS](https://learn.shayhowe.com/html-css/) (until “Creating Lists” included)
@@ -9,6 +9,8 @@ Read or watch:
 - [CSS SpeciFishity](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://specifishity.com/specifishity.pdf)
 - [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS)
 [MDN](https://developer.mozilla.org/en-US/)
+
+![image_css_advenced](https://github.com/user-attachments/assets/6ce8d60e-64ae-4acf-bad6-2366cf88c285)
 
 ## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
