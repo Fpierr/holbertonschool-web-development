@@ -18,6 +18,7 @@ a {
     color: white;
     position: relative;
     text-align: center;
+    align-items: center;
 }
 
 .header::before {
@@ -41,9 +42,10 @@ a {
 
 .header .nav-container a img {
     height: 40px;
-    text-align: right;
-    
+    align-items: center;
+    color: red;
 }
+
 
 .header .nav-container .nav-links {
     display: flex;
