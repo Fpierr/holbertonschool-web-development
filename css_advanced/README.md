@@ -6,7 +6,7 @@ Read or watch:
 - [Learn to Code HTML & CSS](https://learn.shayhowe.com/html-css/) (until “Creating Lists” included)
 - [Inline Styles in HTML](https://www.codecademy.com/article/html-inline-styles)
 - [Specifics on CSS Specificity](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://specifishity.com/specifishity.pdf)
-- [CSS SpeciFishity](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://specifishity.com/specifishity.pdf)
+- [CSS SpeciFishity](https://specifishity.com/specifishity.pdf)
 - [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS)
 [MDN](https://developer.mozilla.org/en-US/)
 
