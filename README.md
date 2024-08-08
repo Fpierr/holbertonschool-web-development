@@ -43,4 +43,4 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 ## Author
 
-- [Fanuel PIERRE](https://www.github.com/Fpierr) 
+- [Fanuel PIERRE](https://www.github.com/Fpierr)
